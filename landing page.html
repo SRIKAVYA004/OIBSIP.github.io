@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realestate Landing Page</title>
+    <style>
+        body {
+            background: url('https://cdn.pixabay.com/photo/2016/11/18/17/46/house-1836070_1280.jpg') no-repeat top center/cover ;
+        }
+        .navbar{
+            display: flex;
+            flex-direction: row;
+            border-bottom: 2px solid #649adc;
+        }
+        .logo img{
+            height:88px ;
+            width:120px;
+
+        }
+        .list{
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            font-size: 30px;
+            /* margin-top: 30px ; */
+            justify-content: center;
+            align-items: center;
+        }
+        .list li{
+            margin: 0px 25px;
+        }
+        .list li:hover{
+            transform:scale(1.2);
+            text-decoration: underline;
+        }
+        .login{
+            position: absolute;
+            right: 90px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            font-size: 25px;
+        }
+        .login img{
+            height:85px;
+            width:85px;
+        }
+        .container{
+            /* text-align: center; */
+            position: relative;
+            top: 10px;
+            margin-left: 2px;
+        }
+        .container h1{
+            font-size: 37px;
+        }
+        .container h2{
+            font-size: 28px;
+        }
+        button{
+            width: 179px;
+            height: 60px;
+            background-color: rgb(140, 168, 227);
+            color: black;
+            font-size: 20px;
+        }
+        button:hover{
+            transform: scale(0.9);
+        }
+        .card{
+            border-top: 8px solid #649adc;
+            width: 20vw;
+            padding: 10px;
+            height: 25vh;
+            position: absolute;
+            right: 20px;
+            top: 170px;
+            background-color: black;
+            opacity: 0.5;
+            color: white;
+        }
+        .card p{
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="logo.jpg" alt="logo">
+        </div>
+        <div class="list">
+            <li>Properties</li>
+            <li>Blog</li>
+            <li>Pages</li>
+            <li>Agents</li>
+        </div>
+        <div class="login">
+            <img src="log.jpg" alt="log in" >
+            <button type="button">Login</button>
+        </div>
+    </div>
+    <div class="container">
+       <b> <h1>Find Real Estate And Get Your <br>Dream Space!!</h1></b>
+        <h2>We are a realestate agency that will help you find the best residence you dream of,<br>let's discuss for your dream house </h2>
+        <button><b>Browse Listings</b></button>
+    </div>
+    <div class="card">
+        <h2>Contact an agent</h2>
+        <p>Call:7548363636</p>
+        <p>Email:goldenhomes21@gmail.com</p>
+        <p>Visit www.goldenhomes.com</p>
+    </div>
+</body>
+</html>
+
